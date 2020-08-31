@@ -2,6 +2,7 @@ body: {
   width: 100vw;
   margin: 0;
   cursor: crosshair;
+  overflow-x: hidden;
 }
 
 
@@ -11,28 +12,23 @@ body: {
   width: 100vw;
   height: 70vh;
   text-align: center;
-}
-
-.intro-gradient {
-  height: 10vw;
-  background-image: linear-gradient(#C0C0C0, white);
-  width: 100vw;
-  margin-top: 20vh;
-
+  display: block;
 }
 
 h1 {
+  /* left: -58vw; */
   font-family: 'Red Hat Text', sans-serif;
-  position: fixed;
+  position: absolute;
   font-size: 34vw;
-  left: -4vw;
   text-align: center;
   color: white;
   letter-spacing: -0.07em;
-  display: inline-block;
+  /* display: inline-block; */
   margin: 0 0 0 0;
   z-index: 3;
   position: sticky;
+  /* padding-left: -8vw; */
+  left: -8vw;
 }
 
 p {
@@ -44,13 +40,48 @@ p {
   position: relative;
   font-family: 'Noto Serif KR', serif;
   font-size: 2vw;
-  padding-top: 40%;
+  /* padding-top: 40%; */
   z-index: 6;
+}
+
+.intro-gradient {
+  height: 10vw;
+  background-image: linear-gradient(#C0C0C0, white);
+  width: 100vw;
+  /* margin-top: 20vh; */
 }
 
 
 .projects {
-  height: 400px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+
+
+
+.projects img {
+  width: 40vw;
+}
+
+.single-proj {
+  display: flex;
+  margin-bottom: 3vh;
+}
+
+.project-txt {
+  width: 20vw;
+  margin: auto;
+}
+
+.proj-title {
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 2vw;
+}
+
+.proj-desc {
+  font-family: 'Noto Serif KR', serif;
+  font-size: 2vw;
 }
 
 
@@ -80,4 +111,22 @@ p {
 .footer-solid p {
   margin: 0px;
   padding-left: 20px;
+}
+
+ul {
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  display: flex;
+}
+
+li {
+  margin: auto;
+  color: red;
+
+}
+
+li a {
+  color: black;
+  font-family: 'Noto Serif KR', serif;
+  font-size: 2vw;
 }
