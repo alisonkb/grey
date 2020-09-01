@@ -9,28 +9,29 @@ body {
 
 
 
-.intro-solid {
+/* .intro-solid {
   background: #C0C0C0;
   margin: 0px;
-  /* width: 100vw; */
-  height: 70vh;
+  height: 700px;
+  position: absolute;
+} */
+
+.intro-text {
   text-align: center;
-  /* display: block; */
-  position: relative;
+  background: #C0C0C0;
 }
 
 h1 {
-  font-family: 'Red Hat Text', sans-serif;
-  /* position: absolute; */
 
-  font-size: 30vw;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 34vw;
   text-align: center;
   color: white;
   letter-spacing: -0.07em;
   z-index: 3;
-  /* left: -5%; */
-  /* position: sticky; */
-
+  left: -5vw;
+  position: relative;
+  top: 7vh;
 }
 
 p {
@@ -38,12 +39,15 @@ p {
   font-size: 2vw;
 }
 
-.intro-solid p {
+.intro-text p {
+
   position: relative;
+  top: 8vh;
   font-family: 'Noto Serif KR', serif;
   font-size: 2vw;
   /* padding-top: 40%; */
   z-index: 6;
+  padding-bottom: 15vh;
 }
 
 .intro-gradient {
