@@ -81,6 +81,10 @@ p {
   margin: auto;
 }
 
+.project-txt a {
+  color: black;
+}
+
 .proj-title {
   font-family: 'Red Hat Text', sans-serif;
   font-size: 2vw;
