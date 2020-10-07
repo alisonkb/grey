@@ -1,0 +1,30 @@
+.nm-header {
+
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 24vw;
+    text-align: center;
+    color: white;
+    letter-spacing: -0.07em;
+    z-index: 3;
+    left: -3vw;
+    position: relative;
+    top: 7vh;
+}
+
+.nm-proj {
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+}
+
+iframe {
+  margin-right: auto;
+}
+
+.nm-desc {
+    margin-right: auto;
+}

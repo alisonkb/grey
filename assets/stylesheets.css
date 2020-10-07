@@ -24,12 +24,12 @@ body {
 h1 {
 
   font-family: 'Red Hat Text', sans-serif;
-  font-size: 24vw;
+  font-size: 34vw;
   text-align: center;
   color: white;
   letter-spacing: -0.07em;
   z-index: 3;
-  left: -3vw;
+  left: -5vw;
   position: relative;
   top: 7vh;
 }
