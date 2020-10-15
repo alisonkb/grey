@@ -1,0 +1,12 @@
+.content-header {
+
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 34vw;
+    text-align: center;
+    color: white;
+    letter-spacing: -0.07em;
+    z-index: 3;
+    left: -4vw;
+    position: relative;
+    top: 7vh;
+}
