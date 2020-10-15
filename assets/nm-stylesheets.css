@@ -41,3 +41,13 @@ iframe {
   width: 80vw;
   max-width: 910px;
 }
+
+.vert-img img {
+  margin: auto;
+  display: block;
+  text-align: center;
+  /* margin-left: 5vw; */
+  margin-right: auto;
+  width: 60vw;
+  max-width: 510px;
+}
