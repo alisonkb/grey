@@ -1,0 +1,53 @@
+.trd-header {
+
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 14.2vw;
+    white-space: nowrap;
+    text-align: center;
+    color: white;
+    letter-spacing: -0.07em;
+    z-index: 3;
+    left: -2vw;
+    position: relative;
+    top: 7vh;
+}
+
+.nm-projects {
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.nm-proj {
+  margin-bottom: 40px;
+
+}
+
+iframe {
+  margin-right: auto;
+}
+
+.nm-desc {
+    margin-right: auto;
+}
+
+.horizon-img img {
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  width: 80vw;
+  max-width: 910px;
+}
+
+.vert-img img {
+  margin: auto;
+  display: block;
+  text-align: center;
+  /* margin-left: 5vw; */
+  margin-right: auto;
+  width: 60vw;
+  max-width: 510px;
+}
