@@ -141,3 +141,16 @@ li a {
   font-family: 'Noto Serif KR', serif;
   font-size: 2vw;
 }
+
+a {
+  color: black;
+}
+
+.homebtn  {
+  font-size: 1vw;
+    font-family: 'Noto Serif KR', serif;
+    margin: auto;
+padding-top: 4vh;
+text-align: center;
+
+}
