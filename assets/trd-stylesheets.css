@@ -40,7 +40,19 @@ iframe {
   margin-right: auto;
   width: 80vw;
   max-width: 910px;
+
 }
+
+.horizon-half img {
+  margin: auto;
+  text-align: center;
+  margin-right: auto;
+  width: 34vw;
+  padding: 2vw;
+  max-width: 400px;
+}
+
+
 
 .vert-img img {
   margin: auto;
